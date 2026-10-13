@@ -3,7 +3,7 @@
 *.avi
 *.mkv
 *.mov
-*.md
+
 
 # Repositorios externos (reemplaza con el nombre real de la carpeta)
 nombre_carpeta_repo_externo/
