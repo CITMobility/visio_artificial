@@ -1,0 +1,35 @@
+# Archivos de video
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.md
+
+# Repositorios externos (reemplaza con el nombre real de la carpeta)
+nombre_carpeta_repo_externo/
+
+# Modelos de IA y pesos (comunes en YOLO/Jetson)
+*.pt
+*.onnx
+
+# Entornos virtuales y caché de Python
+__pycache__/
+venv/
+env/
+.env
+
+# Datasets e imágenes masivas
+dataset/
+datasets/yolo_env/
+video_camion.mp4
+
+# Datos que generan los programas en marcha, no van al repositorio
+datos/
+__pycache__/
+
+# Secretos: configuracion de la unidad y certificados de AWS IoT
+unidad.env
+certs/
+DeepStream-Yolo/
+ultralytics/
+yolo_env/
